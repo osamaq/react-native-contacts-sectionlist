@@ -7,26 +7,33 @@ import {
   TouchableOpacity
 } from "react-native";
 
-const ContactsSectionListComponent = ({ data, handleContactPress }) => {
+const ContactsSectionListComponent = ({
+  data,
+  handleContactPress,
+  rowStyle,
+  itemStyle,
+  containerStyle,
+  headerStyle
+}) => {
   const renderItem = ({ item, index, section }) => {
     return (
       <TouchableOpacity
-        style={styles.row}
+        style={[styles.row, rowStyle]}
         key={index}
         onPress={() => {
           handleContactPress(index, section);
         }}
       >
-        <Text style={styles.item}>{item}</Text>
+        <Text style={[styles.item, itemStyle]}>{item}</Text>
       </TouchableOpacity>
     );
   };
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, containerStyle]}>
       <SectionList
         renderItem={renderItem}
         renderSectionHeader={({ section: { title } }) => (
-          <Text style={styles.sectionHeader}>{title}</Text>
+          <Text style={[styles.sectionHeader, headerStyle]}>{title}</Text>
         )}
         sections={data}
         keyExtractor={(item, index) => {

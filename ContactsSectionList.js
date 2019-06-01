@@ -213,6 +213,10 @@ export class ContactsSectionList extends Component {
         <ContactsSectionListComponent
           data={this.state.finalData}
           handleContactPress={this.handleContactPress}
+          rowStyle={this.props.rowStyle}
+          itemStyle={this.props.itemStyle}
+          containerStyle={this.props.containerStyle}
+          headerStyle={this.props.headerStyle}
         />
       ) : (
         <View
