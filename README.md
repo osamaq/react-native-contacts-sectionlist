@@ -1,6 +1,6 @@
 # react-native-contacts-sectionlist
 
-<img src="https://i.imgur.com/k3mxj83.gifv" width="300">
+<img src="https://i.imgur.com/k3mxj83.gif" width="300">
 
 ### Instructions
 
