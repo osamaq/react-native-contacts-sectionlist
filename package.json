@@ -1,0 +1,26 @@
+{
+  "name": "react-native-contacts-sectionlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamaq/react-native-contacts-sectionlist.git"
+  },
+  "author": "Osama Qarem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osamaq/react-native-contacts-sectionlist/issues"
+  },
+  "homepage": "https://github.com/osamaq/react-native-contacts-sectionlist#readme",
+  "peerDependencies": {
+    "react-native": "^0.59.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-native-contacts": "4.0.2"
+  }
+}
