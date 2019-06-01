@@ -36,7 +36,7 @@ export default class App extends Component {
 | :------------- | :---: | :------------------------------------------------------------------------- |
 | containerStyle | style | Will be applied to the view container which surrounds the <SectionList\/>. |
 | headerStyle    | style | Will be applied to the headers which are <Text\/> components.              |
-| rowStyle       | style | Will be applied to the rows which are <TouchableOpacity\/> component.      |
+| rowStyle       | style | Will be applied to the rows which are <TouchableOpacity\/> components.      |
 | itemStyle      | style | Will be applied to row items which are <Text\/> components.                |
 
 Styling example:
