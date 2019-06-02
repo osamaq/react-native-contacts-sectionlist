@@ -6,7 +6,7 @@ Works on both iOS and Android.
 
 ### Instructions
 
-To use this component, you must install and link the package [react-native-contacts](https://github.com/rt2zz/react-native-contacts).
+This component depends on the API of [react-native-contacts](https://github.com/rt2zz/react-native-contacts). To use this component, follow the installation procedures for [react-native-contacts](https://github.com/rt2zz/react-native-contacts). You won't have to ask for android permissions at runtime. This component will handle that.
 
 After that you may:
 
@@ -41,6 +41,7 @@ export default class App extends Component {
 | rowStyle       | style | Will be applied to the rows which are <TouchableOpacity\/> components.     |
 | itemStyle      | style | Will be applied to row items which are <Text\/> components.                |
 
+<br>
 Styling example:
 
 ```
