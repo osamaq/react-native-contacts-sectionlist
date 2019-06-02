@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/k3mxj83.gif" width="300">
 
-Works for both iOS and Android.
+Works on both iOS and Android.
 
 ### Instructions
 
