@@ -22,5 +22,17 @@
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.54.1",
     "react-native-contacts": "4.0.2"
-  }
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "react-component",
+    "addressbook",
+    "contacts",
+    "ios",
+    "android",
+    "phonebook",
+    "sectionlist",
+    "list"
+  ]
 }
