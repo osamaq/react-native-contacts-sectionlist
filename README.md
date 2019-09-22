@@ -1,5 +1,8 @@
 # react-native-contacts-sectionlist
 
+[![npm version](https://badge.fury.io/js/react-native-contacts-sectionlist.svg)](https://www.npmjs.com/package/react-native-contacts-sectionlist)
+
+
 <img src="https://i.imgur.com/k3mxj83.gif" width="300">
 
 Works on both iOS and Android.
