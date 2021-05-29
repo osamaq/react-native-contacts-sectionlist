@@ -1,5 +1,7 @@
 # react-native-contacts-sectionlist
 
+### (Unmaintained - please fork)
+
 [![npm version](https://badge.fury.io/js/react-native-contacts-sectionlist.svg)](https://www.npmjs.com/package/react-native-contacts-sectionlist)
 
 
